@@ -88,7 +88,18 @@ Buka `style.css`, edit variabel di blok `:root`:
 Font memakai Google Fonts. Untuk mengganti, ubah tautan `<link>` di `<head>` pada `index.html`,
 lalu sesuaikan `--font-display` (judul) dan `--font-body` (isi) di `style.css`.
 
-### 5. Teks, angka, dan produk
+### 5. Popup produk
+Klik kartu produk membuka popup berisi gambar, deskripsi, spesifikasi, dan tombol aksi.
+Isinya diatur di objek `PRODUCTS` pada `script.js`:
+
+- `type: "bisnis"` menampilkan tombol "Minta Penawaran via WhatsApp"
+- `type: "konsumen"` menampilkan tombol Shopee dan Tokopedia (dari `CONFIG.links`)
+- `specs` berisi pasangan `[label, nilai]`
+
+Untuk produk baru: tambahkan atribut `data-product="idbaru"` pada kartunya di `index.html`,
+lalu tambahkan entri `idbaru: { ... }` di `PRODUCTS`.
+
+### 6. Teks, angka, dan produk
 - Teks: edit langsung di `index.html`.
 - Angka statistik: ubah atribut `data-count` dan `data-suffix` pada elemen `.stat-num`.
 - Kartu produk: salin satu blok `<article class="card">` untuk menambah produk.
@@ -99,6 +110,7 @@ lalu sesuaikan `--font-display` (judul) dan `--font-body` (isi) di `style.css`.
 - Smooth scrolling dengan offset header
 - Header transparan yang berubah saat digulir, plus menu mobile
 - Animasi muncul saat digulir (stagger) dan penghitung angka
+- Popup detail produk (tutup dengan X, klik area gelap, atau Esc)
 - Sorot menu sesuai section yang sedang dilihat
 - Responsif penuh (desktop, tablet, ponsel)
 - Menghormati pengaturan "reduce motion" pada perangkat pengguna
