@@ -1,4 +1,4 @@
-# MONOLINE: Landing Page Korporat T-shirt
+# BROCULTURE: Landing Page Korporat T-shirt
 
 Landing page satu halaman (single-page) dengan tema putih bersih dan aksen hitam minimalis.
 Dibuat dengan HTML, CSS, dan JavaScript murni, tanpa framework dan tanpa proses build.
