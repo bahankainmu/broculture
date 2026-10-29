@@ -1,5 +1,5 @@
 /* =========================================================
-   MONOLINE: Landing Page
+   BROCULTURE: Landing Page
    Interaksi: data brand, menu mobile, header, animasi gulir,
    penghitung angka, link aktif, form WhatsApp.
    ========================================================= */
@@ -8,27 +8,27 @@
    1. KONFIGURASI (DATA CONTOH: ganti dengan data asli)
    --------------------------------------------------------- */
 const CONFIG = {
-  brandName: "MONOLINE",
+  brandName: "BROCULTURE",
 
   // Tautan toko & sosial media resmi
   links: {
-    shopee:    "https://shopee.co.id/monoline",
-    tokopedia: "https://www.tokopedia.com/monoline",
-    instagram: "https://www.instagram.com/monoline.id",
-    tiktok:    "https://www.tiktok.com/@monoline.id",
+    shopee:    "https://shopee.co.id/broculture",
+    tokopedia: "https://www.tokopedia.com/broculture",
+    instagram: "https://www.instagram.com/broculture.id",
+    tiktok:    "https://www.tiktok.com/@broculture.id",
   },
 
   // Handle yang ditampilkan di kartu sosial media
   handles: {
-    instagram: "@monoline.id",
-    tiktok:    "@monoline.id",
+    instagram: "@broculture.id",
+    tiktok:    "@broculture.id",
   },
 
   // Kontak penjualan
   contact: {
     whatsapp: "6281234567890",           // format internasional, tanpa +, spasi, atau tanda hubung
     whatsappDisplay: "+62 812-3456-7890", // teks yang ditampilkan
-    email: "sales@monoline.id",
+    email: "sales@broculture.id",
     address: "Jl. Contoh No. 123, Jakarta, Indonesia",
   },
 };
