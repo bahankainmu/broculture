@@ -271,7 +271,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
 .pillar { padding-top: 22px; border-top: 1px solid var(--ink); }
 .pillar-no { font-size: 12px; letter-spacing: .14em; color: var(--muted); }
-.pillar h3 { font-family: var(--font-display); font-size: 28px; font-weight: 500; margin: 12px 0 10px; }
+.pillar h3 { font-family: var(--font-display); font-size: 28px; font-weight: 500; margin: 0 0 10px; }
 .pillar p { color: var(--muted); font-size: 15px; }
 
 /* ---------- 10. Produk (grid kartu) ---------- */
